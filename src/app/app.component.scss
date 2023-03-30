@@ -1,0 +1,79 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+
+ion-title {
+  color: aqua;
+  text-shadow: 0 0 8px aqua;
+  font-size: 2rem;
+  font-weight: 550;
+  letter-spacing: 5px;
+}
+
+ion-thumbnail {
+  width: 80px;
+  height: 120px;
+  object-fit: center;
+  object-position: center;
+}
+
+img {
+  border-radius: 10px;
+}
+
+ion-thumbnail img {
+  box-shadow: 2px 8px 10px #000;
+}
+
+ion-item {
+  margin-top: 12px;
+}
+
+.botao {
+  left: 10px;
+}
+
+
+.botao2 {
+  left: 0px;
+}
+
+.botao3 {
+  left: 42px;
+}
+
+
+.botao4 {
+  left: 40px;
+}
+
+
+.botao5 {
+  left: 36px;
+}
