@@ -25,3 +25,55 @@
 #container a {
   text-decoration: none;
 }
+
+
+
+ion-title {
+  color: aqua;
+  text-shadow: 0 0 8px aqua;
+  font-size: 2rem;
+  font-weight: 550;
+  letter-spacing: 5px;
+}
+
+ion-thumbnail {
+  width: 80px;
+  height: 120px;
+  object-fit: center;
+  object-position: center;
+}
+
+img {
+  border-radius: 10px;
+}
+
+ion-thumbnail img {
+  box-shadow: 2px 8px 10px #000;
+}
+
+ion-item {
+  margin-top: 12px;
+}
+
+.botao {
+  left: 10px;
+}
+
+
+.botao2 {
+  left: 30px;
+}
+
+.botao3 {
+  left: 42px;
+}
+
+
+.botao4 {
+  left: 40px;
+}
+
+
+.botao5 {
+  left: 36px;
+}

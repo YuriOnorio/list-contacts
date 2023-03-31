@@ -1,13 +1,12 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>patinhomaloka</ion-title>
+    <ion-title (click)="voltar2()"> <ion-icon name="arrow-back-outline"></ion-icon> Patinho Maloka</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">patinhomaloka</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div clas="container-coin">
+    <img [src]="image" alt="imagem">
+    <h1  class="ion-text-center"></h1>
+</div>
 </ion-content>
