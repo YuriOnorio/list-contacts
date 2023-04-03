@@ -1,13 +1,35 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title (click)="voltar()"> <ion-icon name="arrow-back-outline"></ion-icon> Pica-Pau Art</ion-title>
+    <ion-title (click)="voltar()" class="ion-text-center"> Pica-Pau</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">picapau</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div clas="container-coin" class="ion-text-center">
+    <img src="https://w0.peakpx.com/wallpaper/342/756/HD-wallpaper-pica-pau-art-desenho.jpg" alt="" />
+    <div class="nome">
+      <h1 class="ion-text-center">Pica-Pau</h1>
+      <p>014 99797-2781</p>
+    </div>
+  </div>
+
+  <div class="info">
+
+    <div class="botaos">
+      <button class="btn">
+        <ion-icon name="call-outline"></ion-icon>
+        <span> Ligar </span>
+      </button>
+
+      <button class="btn">
+        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+        <span> Enviar SMS </span>
+      </button>
+
+      <button class="btn">
+        <ion-icon name="videocam-outline"></ion-icon>
+        <span>Vídeo chamada</span>
+      </button>
+    </div>
+  </div>
 </ion-content>

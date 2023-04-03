@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -27,7 +26,6 @@
 }
 
 
-
 ion-title {
   color: aqua;
   text-shadow: 0 0 8px aqua;
@@ -52,7 +50,7 @@ ion-thumbnail img {
 }
 
 ion-item {
-  margin-top: 12px;
+  margin-top: 15px;
 }
 
 .botao {
@@ -76,4 +74,36 @@ ion-item {
 
 .botao5 {
   left: 36px;
+}
+
+ion-searchbar {
+  box-shadow: none !important;
+  left: 5%;
+  top: 1%;  
+  background: transparent;
+  max-width: 400px;
+}
+
+.botaos {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 90px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 174, 255);
+  background-color: #222;
+  border-radius: 10px;
+  gap: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
